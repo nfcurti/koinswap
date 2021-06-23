@@ -1,13 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
+import logoPic from '../../public/logo-with-text.png'
 
 export default function Header() {
   return (
     <div className={styles.navbar}>
         
-      <img alt="logo" src='https://cdn.discordapp.com/attachments/856208542041899048/856505731709009930/logo-with-text.png' />
-        
+      
+      <Image src={logoPic} alt="logo" />
       <ul>
         <li className={styles.nav_item}>
           <a >Cashier</a>

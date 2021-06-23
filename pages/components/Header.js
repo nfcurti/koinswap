@@ -9,7 +9,7 @@ export default function Header() {
         
       
       <Image src={logoPic} alt="logo" />
-      <ul>
+      <ul className={styles.ul_nav}>
         <li className={styles.nav_item}>
           <a >Cashier</a>
           <div className={styles.Frame}></div>

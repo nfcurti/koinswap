@@ -28,7 +28,7 @@ export default function Header() {
         </li>
         <li className={styles.connect}><a >Connect</a>
         </li>
-        <li className={styles.nav_item_b}><a >Bits: 0</a>
+        <li className={styles.nav_item_b}><a >KOIN: 0</a>
         </li>
       </ul>
     </div>

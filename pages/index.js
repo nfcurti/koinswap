@@ -18,7 +18,6 @@ export default function Home() {
       <main className={styles.bgcontainer}>
         <Header />
         <Content />
-        <Controls />
       </main>
 
     </div>

@@ -1,11 +1,61 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.nav_item{
+margin-right: 1em;
+    margin-left: 1em;
+    width: 7em;
+    text-align: center;
+    font-size: 1em;
+}
+
+.nav_item:hover{
+  cursor: pointer;
+  opacity: 0.8
+}
+
+.Frame{
+height: 2em;
+    background-image: url(../public/Frame.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0%; 
+}
+
+.connect{
+    background-image: url(../public/connect.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 4em;
+    width: 7em;
+    color:white;
+    text-align: center;
+    padding: 1em;
+    margin-left: 2em
+}
+
+.connect:hover{
+  cursor: pointer;
+  opacity: 0.8
+}
+
+.navbar{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem
+}
+
+.navbar img{
+  width: 12em
 }
 
 .main {
@@ -15,6 +65,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.bgcontainer{
+  width: 100%;
+  height:100%;
+  background-image: url('../public/extra_left.svg'), url('../public/bottom.svg'), url('../public/top.svg'), url('../public/bg1.svg'), url('../public/bg2.svg');
+  background-size: 15%, 100%, 100%,100%, 100%;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: 0% 35%, bottom, top, bottom, 50% 150% ; 
 }
 
 .footer {
@@ -122,6 +181,7 @@
   position: absolute;
   bottom: 0
 }
+
 
 @media (max-width: 600px) {
   .grid {

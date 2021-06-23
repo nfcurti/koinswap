@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className={styles.navbar}>
         
-      <img src='https://cdn.discordapp.com/attachments/856208542041899048/856505731709009930/logo-with-text.png' />
+      <img alt="logo" src='https://cdn.discordapp.com/attachments/856208542041899048/856505731709009930/logo-with-text.png' />
         
       <ul>
         <li className={styles.nav_item}>
@@ -26,6 +26,8 @@ export default function Header() {
           <div className={styles.Frame}></div>
         </li>
         <li className={styles.connect}><a >Connect</a>
+        </li>
+        <li className={styles.nav_item_b}><a >Bits: 0</a>
         </li>
       </ul>
     </div>

@@ -1,5 +1,10 @@
 html,
 body {
+  background-image: url('../public/extra_left.svg'), url('../public/bottom.svg'), url('../public/top.svg'), url('../public/bg1.svg'), url('../public/bg2.svg');
+  background-size: 15%, 100%, 100%,100%, 100%;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: 0% 35%, bottom, top, bottom, 50% 150% ; 
+  background-color: #00CCF0;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
